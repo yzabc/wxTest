@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Created by DELL on 2017/9/12.
  */
 public class CheckUtil {
-    private static final String token = "youyun968";
+    private static final String token = "随便写";
     public static boolean checkSignature(String signature,String timestamp,String nonce){
         String arr[]=new String[]{token,timestamp,nonce};
         //排序
