@@ -18,6 +18,7 @@ import java.util.Map;
  * Created by DELL on 2017/9/12.
  */
 public class MessageUtil {
+    public static final String MESSAGE_TEXT = "text";
     /**
      * xml转map
      * @param req
